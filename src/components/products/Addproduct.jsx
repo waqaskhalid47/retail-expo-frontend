@@ -14,8 +14,6 @@ import { useDispatch, useSelector } from "react-redux";
 import "../../App.css";
 import saveProduct from "../actions/saveProduct";
 import { storage } from "../firebase/index";
-GIT_COMMITTER_DATE="2021-09-11 13:32:31 UTC" git commit --date "2021-09-11 13:32:31 UTC" -m "added cart page, top menu"
-GIT_COMMITTER_DATE="2021-09-03 15:21:33 UTC" git commit --date "2021-09-03 15:21:33 UTC" -m "retail"
 
 function Copyright() {
   return (
