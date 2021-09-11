@@ -53,14 +53,12 @@ export default function Addproduct(props) {
   const [productImage, setURL] = useState("");
   const [image, setImage] = useState("");
 
-  const { product, success, loading } = Product;
-
   const uploadHandler = async () => {
     await storage
       .ref(`productImages/${image.name}`)
       .put(image)
       .then((res) => {
-        console.log(res);
+        console.log("images response>>",res);
       });
 
     await storage
